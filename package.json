@@ -11,7 +11,8 @@
   "dependencies": {
     "@slippi/slippi-js": "^6.6.1",
     "chokidar": "^3.5.3",
-    "ethers": "^6.0.3",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.4",
     "lodash": "^4.17.21"
   }
 }

@@ -1,11 +1,23 @@
+/// Stream game events, watch for game end event, push signed game results to proper Escrow contract
 const { SlippiGame } = require('@slippi/slippi-js');
 const os = require('os');
 const chokidar = require('chokidar');
 const _ = require('lodash');
+const { ethers } = require('ethers');
+const { Escrow__factory } = require('./types/ethers-contracts/factories/Escrow__factory');
+require('dotenv').config();
 
-// const listenPath = process.argv[2];
+const provider = new ethers.providers.JsonRpcProvider(
+  process.env.GOERLI_ALCHEMY_URL
+);
+const arbiterKey = process.env.ARBITER_KEY;
+const arbiterWallet = ethers.Wallet(arbiterKey, provider);
 const listenPath = `${os.homedir()}/Slippi/`;
 console.log(`Listening at: ${listenPath}`);
+const EscrowContract = Escrow__factory.connect(
+  addressesJson.addresses.elementToken,
+  arbiterWallet,
+);
 
 const watcher = chokidar.watch(listenPath, {
   ignored: '!*.slp', // TODO: This doesn't work. Use regex?
@@ -16,14 +28,22 @@ const watcher = chokidar.watch(listenPath, {
 });
 
 const gameByPath = {};
+
 watcher.on('change', (path) => {
   const start = Date.now();
 
-  let gamewinners, metadata, gameState, settings, stats, frames, latestFrame, gameEnd;
+  let gamewinners,
+    metadata,
+    gameState,
+    settings,
+    stats,
+    frames,
+    latestFrame,
+    gameEnd;
   try {
     let game = _.get(gameByPath, [path, 'game']);
     if (!game) {
-      console.log(`New file at: ${path}`);
+      // console.log(`New file at: ${path}`);
       // Make sure to enable `processOnTheFly` to get updated stats as the game progresses
       game = new SlippiGame(path, { processOnTheFly: true });
       gameByPath[path] = {
@@ -39,13 +59,6 @@ watcher.on('change', (path) => {
 
     settings = game.getSettings();
     metadata = game.getMetadata();
-
-
-    // You can uncomment the stats calculation below to get complex stats in real-time. The problem
-    // is that these calculations have not been made to operate only on new data yet so as
-    // the game gets longer, the calculation will take longer and longer
-    // stats = game.getStats();
-
     frames = game.getFrames();
     latestFrame = game.getLatestFrame();
     gameEnd = game.getGameEnd();
@@ -74,32 +87,6 @@ watcher.on('change', (path) => {
     // );
   });
 
-  // Uncomment this if you uncomment the stats calculation above. See comment above for details
-  // // Do some conversion detection logging
-  // // console.log(stats);
-  // _.forEach(stats.conversions, conversion => {
-  //   const key = `${conversion.playerIndex}-${conversion.startFrame}`;
-  //   const detected = _.get(gameState, ['detectedPunishes', key]);
-  //   if (!detected) {
-  //     console.log(`[Punish Start] Frame ${conversion.startFrame} by player ${conversion.playerIndex + 1}`);
-  //     gameState.detectedPunishes[key] = conversion;
-  //     return;
-  //   }
-
-  //   // If punish was detected previously, but just ended, let's output that
-  //   if (!detected.endFrame && conversion.endFrame) {
-  //     const dmg = conversion.endPercent - conversion.startPercent;
-  //     const dur = conversion.endFrame - conversion.startFrame;
-  //     console.log(
-  //       `[Punish End] Player ${conversion.playerIndex + 1}'s punish did ${dmg} damage ` +
-  //       `with ${conversion.moves.length} moves over ${dur} frames`
-  //     );
-  //   }
-
-  //   gameState.detectedPunishes[key] = conversion;
-  // });
-
-
   if (gameEnd) {
     // NOTE: These values and the quitter index will not work until 2.0.0 recording code is
     // NOTE: used. This code has not been publicly released yet as it still has issues
@@ -109,12 +96,7 @@ watcher.on('change', (path) => {
       7: 'No Contest',
     };
 
-    console.log('\n')
-    // console.log('gameend event: ', gameEnd);
-    // console.log('gameend method: ', gameEnd.gameEndMethod);
-    // console.log('latest frame: ', latestFrame);
-    // console.log('latest frame string: ', JSON.stringify(latestFrame));
-    // latestFrame.players.forEach((player, index) => {
+    console.log('\n');
 
     const endMessage = _.get(endTypes, gameEnd.gameEndMethod) || 'Unknown';
 
@@ -126,15 +108,12 @@ watcher.on('change', (path) => {
   }
 
   if (gamewinners !== [] && metadata) {
-    // rabby dev wallet
-    // arbiterKey = process.env.ARBITER_KEY
-    // console.log('gamewinners: ', gamewinners);
-    // console.log('metadata', metadata);
-    // console.log('metadata stringy', JSON.stringify(metadata));
     const winningPlayer = metadata.players[gamewinners[0].playerIndex];
     console.log('winningPlayer', winningPlayer);
     console.log('winningPlayer name: ', winningPlayer.names.netplay);
     console.log('winningPlayer code: ', winningPlayer.names.code); // ex. JAWA#977
+
+    Escr
   }
 
   console.log(`Read took: ${Date.now() - start} ms`);

@@ -1,0 +1,2035 @@
+We have 2600 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 72.5% | 2 stocks
+Read took: 4 ms
+We have 2614 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 72.5% | 2 stocks
+Read took: 2 ms
+We have 2627 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 72.5% | 2 stocks
+Read took: 5 ms
+We have 2639 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 72.5% | 2 stocks
+Read took: 2 ms
+We have 2652 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2663 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2676 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 4 ms
+We have 2689 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2702 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2716 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2726 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2736 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2747 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2760 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2773 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2785 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2796 frames.
+[Port 1] 81.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2808 frames.
+[Port 1] 90.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2819 frames.
+[Port 1] 90.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2832 frames.
+[Port 1] 90.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2845 frames.
+[Port 1] 90.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 1 ms
+We have 2858 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 1 ms
+We have 2871 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2879 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2892 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2905 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 4 ms
+We have 2916 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2929 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2938 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2951 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 4 ms
+We have 2962 frames.
+[Port 1] 94.3% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 2975 frames.
+[Port 1] 97.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2988 frames.
+[Port 1] 97.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 2999 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 3012 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 1 ms
+We have 3026 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 3039 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 1 ms
+We have 3047 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 3060 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 3073 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 3082 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 4 ms
+We have 3090 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 3103 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 3 ms
+We have 3117 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 3125 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 0.0% | 2 stocks
+Read took: 2 ms
+We have 3137 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 2.0% | 2 stocks
+Read took: 2 ms
+We have 3140 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 2.0% | 2 stocks
+Read took: 7 ms
+We have 3151 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 4 ms
+We have 3160 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 3 ms
+We have 3171 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 3 ms
+We have 3182 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 2 ms
+We have 3195 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 2 ms
+We have 3204 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 2 ms
+We have 3215 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 7.5% | 2 stocks
+Read took: 4 ms
+We have 3227 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 14.7% | 2 stocks
+Read took: 3 ms
+We have 3240 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 14.7% | 2 stocks
+Read took: 6 ms
+We have 3253 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 14.7% | 2 stocks
+Read took: 1 ms
+We have 3262 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 14.7% | 2 stocks
+Read took: 3 ms
+We have 3271 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 14.7% | 2 stocks
+Read took: 1 ms
+We have 3281 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 25.9% | 2 stocks
+Read took: 3 ms
+We have 3294 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 25.9% | 2 stocks
+Read took: 3 ms
+We have 3307 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 32.9% | 2 stocks
+Read took: 3 ms
+We have 3320 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 32.9% | 2 stocks
+Read took: 2 ms
+We have 3332 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 32.9% | 2 stocks
+Read took: 4 ms
+We have 3345 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 32.9% | 2 stocks
+Read took: 3 ms
+We have 3358 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 32.9% | 2 stocks
+Read took: 4 ms
+We have 3371 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 43.3% | 2 stocks
+Read took: 2 ms
+We have 3385 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 43.3% | 2 stocks
+Read took: 2 ms
+We have 3398 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 43.3% | 2 stocks
+Read took: 1 ms
+We have 3411 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 2 ms
+We have 3424 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 3 ms
+We have 3437 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 3 ms
+We have 3449 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 4 ms
+We have 3462 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 2 ms
+We have 3475 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 2 ms
+We have 3489 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 5 ms
+We have 3501 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 2 ms
+We have 3512 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 52.1% | 2 stocks
+Read took: 2 ms
+We have 3525 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3538 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3550 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 1 ms
+We have 3562 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 5 ms
+We have 3575 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3587 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3600 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3613 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3624 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3636 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3647 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3659 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3673 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3685 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3698 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 3710 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 3723 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3735 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 3748 frames.
+[Port 1] 101.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3761 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3773 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3786 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3799 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 1 ms
+We have 3810 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3823 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3836 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3850 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 1 ms
+We have 3861 frames.
+[Port 1] 108.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3874 frames.
+[Port 1] 112.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 6 ms
+We have 3886 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3899 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3912 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3925 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 1 ms
+We have 3937 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3948 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3958 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3970 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 3979 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 3988 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4001 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4014 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4027 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4041 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4054 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4067 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4080 frames.
+[Port 1] 115.9% | 4 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4093 frames.
+[Port 1] 115.9% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4103 frames.
+[Port 1] 115.9% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4116 frames.
+[Port 1] 115.9% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4128 frames.
+[Port 1] 115.9% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4142 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4154 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4167 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4180 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4193 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4206 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4219 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4231 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 6 ms
+We have 4245 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4258 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4271 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4282 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4295 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 1 ms
+We have 4307 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4320 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4333 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4343 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4354 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4367 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4380 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 2 ms
+We have 4394 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 3 ms
+We have 4407 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 69.1% | 2 stocks
+Read took: 4 ms
+We have 4419 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 72.9% | 2 stocks
+Read took: 2 ms
+We have 4431 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 2 ms
+We have 4443 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 3 ms
+We have 4456 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 2 ms
+We have 4469 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 2 ms
+We have 4482 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 2 ms
+We have 4495 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 4 ms
+We have 4508 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 3 ms
+We have 4521 frames.
+[Port 1] 0.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 2 ms
+We have 4527 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 2 ms
+We have 4534 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 1 ms
+We have 4543 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 76.6% | 2 stocks
+Read took: 4 ms
+We have 4553 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 2 ms
+We have 4562 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 5 ms
+We have 4570 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 3 ms
+We have 4578 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 4 ms
+We have 4588 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 2 ms
+We have 4594 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 3 ms
+We have 4609 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 3 ms
+We have 4618 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 1 ms
+We have 4624 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 2 ms
+We have 4631 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 2 ms
+We have 4637 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 2 ms
+We have 4650 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 80.6% | 2 stocks
+Read took: 4 ms
+We have 4661 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 84.2% | 2 stocks
+Read took: 2 ms
+We have 4673 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 84.2% | 2 stocks
+Read took: 2 ms
+We have 4685 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 84.2% | 2 stocks
+Read took: 1 ms
+We have 4697 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 93.2% | 2 stocks
+Read took: 3 ms
+We have 4708 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 93.2% | 2 stocks
+Read took: 4 ms
+We have 4721 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 93.2% | 2 stocks
+Read took: 2 ms
+We have 4733 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 102.2% | 2 stocks
+Read took: 3 ms
+We have 4744 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 102.2% | 2 stocks
+Read took: 3 ms
+We have 4758 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 102.2% | 2 stocks
+Read took: 3 ms
+We have 4769 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 102.2% | 2 stocks
+Read took: 5 ms
+We have 4780 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 102.2% | 2 stocks
+Read took: 2 ms
+We have 4793 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4804 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4815 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4824 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 1 ms
+We have 4836 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4849 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4860 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 3 ms
+We have 4872 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 3 ms
+We have 4883 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4894 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 117.2% | 2 stocks
+Read took: 2 ms
+We have 4902 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 120.2% | 2 stocks
+Read took: 2 ms
+We have 4910 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 120.2% | 2 stocks
+Read took: 1 ms
+We have 4919 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 3 ms
+We have 4930 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 2 ms
+We have 4942 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 4 ms
+We have 4953 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 3 ms
+We have 4964 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 3 ms
+We have 4977 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 2 ms
+We have 4990 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 4 ms
+We have 5003 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 2 ms
+We have 5017 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 2 stocks
+Read took: 2 ms
+We have 5030 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 1 stocks
+Read took: 4 ms
+We have 5043 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 1 stocks
+Read took: 3 ms
+We have 5056 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 1 stocks
+Read took: 3 ms
+We have 5067 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 1 stocks
+Read took: 2 ms
+We have 5080 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 123.2% | 1 stocks
+Read took: 2 ms
+We have 5093 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5106 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5120 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5133 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5146 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5159 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 1 ms
+We have 5172 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5185 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5198 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 5 ms
+We have 5211 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5224 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5237 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5250 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5263 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5276 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5289 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 5 ms
+We have 5301 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 8 ms
+We have 5314 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 3 ms
+We have 5327 frames.
+[Port 1] 12.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5340 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 4 ms
+We have 5353 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 0.0% | 1 stocks
+Read took: 2 ms
+We have 5367 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 8.0% | 1 stocks
+Read took: 3 ms
+We have 5380 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 8.0% | 1 stocks
+Read took: 3 ms
+We have 5393 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 8.0% | 1 stocks
+Read took: 3 ms
+We have 5406 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 8.0% | 1 stocks
+Read took: 2 ms
+We have 5419 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 8.0% | 1 stocks
+Read took: 3 ms
+We have 5432 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 8.0% | 1 stocks
+Read took: 3 ms
+We have 5445 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 1 ms
+We have 5458 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5472 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5485 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 1 ms
+We have 5498 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5511 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5524 frames.
+[Port 1] 24.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5537 frames.
+[Port 1] 28.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 4 ms
+We have 5550 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5563 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 1 ms
+We have 5577 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5590 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5603 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 4 ms
+We have 5616 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5629 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5642 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 1 ms
+We have 5655 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5668 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 4 ms
+We have 5682 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5695 frames.
+[Port 1] 31.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 4 ms
+We have 5708 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5721 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5734 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 3 ms
+We have 5747 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5759 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5770 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5782 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5795 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 16.5% | 1 stocks
+Read took: 2 ms
+We have 5808 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 24.4% | 1 stocks
+Read took: 3 ms
+We have 5820 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 24.4% | 1 stocks
+Read took: 2 ms
+We have 5833 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 24.4% | 1 stocks
+Read took: 2 ms
+We have 5846 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 24.4% | 1 stocks
+Read took: 2 ms
+We have 5859 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 24.4% | 1 stocks
+Read took: 1 ms
+We have 5873 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 2 ms
+We have 5886 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 3 ms
+We have 5899 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 4 ms
+We have 5912 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 2 ms
+We have 5925 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 4 ms
+We have 5938 frames.
+[Port 1] 42.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 3 ms
+We have 5951 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 6 ms
+We have 5964 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 3 ms
+We have 5978 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 2 ms
+We have 5991 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 38.8% | 1 stocks
+Read took: 3 ms
+We have 6004 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 3 ms
+We have 6015 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 3 ms
+We have 6028 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 2 ms
+We have 6041 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 3 ms
+We have 6054 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 2 ms
+We have 6067 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 2 ms
+We have 6081 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 2 ms
+We have 6094 frames.
+[Port 1] 51.0% | 3 stocks
+[Port 2] 50.8% | 1 stocks
+Read took: 3 ms
+We have 6107 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 61.7% | 1 stocks
+Read took: 2 ms
+We have 6120 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 61.7% | 1 stocks
+Read took: 2 ms
+We have 6132 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 69.7% | 1 stocks
+Read took: 2 ms
+We have 6145 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 69.7% | 1 stocks
+Read took: 3 ms
+We have 6158 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 69.7% | 1 stocks
+Read took: 2 ms
+We have 6171 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 69.7% | 1 stocks
+Read took: 2 ms
+We have 6185 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 2 ms
+We have 6198 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 1 ms
+We have 6211 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 2 ms
+We have 6224 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 2 ms
+We have 6237 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 5 ms
+We have 6250 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 5 ms
+We have 6261 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 3 ms
+We have 6274 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 3 ms
+We have 6288 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 3 ms
+We have 6301 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 83.8% | 1 stocks
+Read took: 2 ms
+We have 6314 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 3 ms
+We have 6327 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 1 ms
+We have 6339 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 3 ms
+We have 6351 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 4 ms
+We have 6364 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 2 ms
+We have 6378 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 3 ms
+We have 6391 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 3 ms
+We have 6404 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 3 ms
+We have 6417 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 4 ms
+We have 6430 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 92.8% | 1 stocks
+Read took: 3 ms
+We have 6441 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 98.4% | 1 stocks
+Read took: 2 ms
+We have 6453 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6466 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6479 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6491 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 5 ms
+We have 6503 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6515 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6529 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6542 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6553 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6566 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6579 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6593 frames.
+[Port 1] 55.5% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6606 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 7 ms
+We have 6617 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6630 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6643 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 1 ms
+We have 6656 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6669 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6682 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6696 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6709 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 5 ms
+We have 6721 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 1 ms
+We have 6734 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6747 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 5 ms
+We have 6759 frames.
+[Port 1] 69.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6770 frames.
+[Port 1] 72.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 7 ms
+We have 6779 frames.
+[Port 1] 72.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6792 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6805 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6818 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6827 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6839 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6850 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6860 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 6 ms
+We have 6871 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6881 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 2 ms
+We have 6893 frames.
+[Port 1] 81.3% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 7 ms
+We have 6905 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6918 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6930 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6943 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 3 ms
+We have 6956 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 4 ms
+We have 6969 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 100.3% | 1 stocks
+Read took: 6 ms
+We have 6980 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 2 ms
+We have 6993 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 6 ms
+We have 7007 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 1 ms
+We have 7020 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 6 ms
+We have 7033 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 3 ms
+We have 7046 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 2 ms
+We have 7059 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 3 ms
+We have 7072 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 2 ms
+We have 7085 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 2 ms
+We have 7099 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 3 ms
+We have 7109 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 114.3% | 1 stocks
+Read took: 5 ms
+We have 7121 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 2 ms
+We have 7134 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 3 ms
+We have 7147 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 5 ms
+We have 7160 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 3 ms
+We have 7173 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 4 ms
+We have 7186 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 4 ms
+We have 7200 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 4 ms
+We have 7213 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 4 ms
+We have 7223 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 2 ms
+We have 7233 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 1 ms
+We have 7241 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 2 ms
+We have 7254 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 2 ms
+We have 7262 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 2 ms
+We have 7271 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 2 ms
+We have 7283 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 3 ms
+We have 7293 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 122.5% | 1 stocks
+Read took: 3 ms
+We have 7306 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7319 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7332 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7345 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7358 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7370 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7383 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7396 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7409 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7421 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7434 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7447 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7458 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7471 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7485 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7498 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 1 ms
+We have 7511 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7524 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7536 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7549 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7562 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7573 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 5 ms
+We have 7587 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 4 ms
+We have 7599 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7612 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7625 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7636 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7648 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7660 frames.
+[Port 1] 92.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7673 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 1 ms
+We have 7687 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7700 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 2 ms
+We have 7713 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7726 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 1 ms
+We have 7739 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7752 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 131.0% | 1 stocks
+Read took: 3 ms
+We have 7765 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 132.9% | 1 stocks
+Read took: 2 ms
+We have 7775 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 6 ms
+We have 7787 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 2 ms
+We have 7800 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 3 ms
+We have 7813 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 4 ms
+We have 7826 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 4 ms
+We have 7840 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 2 ms
+We have 7853 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 3 ms
+We have 7866 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 5 ms
+We have 7879 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 3 ms
+We have 7892 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 2 ms
+We have 7905 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 3 ms
+We have 7918 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 138.1% | 1 stocks
+Read took: 5 ms
+We have 7931 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 149.9% | 1 stocks
+Read took: 4 ms
+We have 7935 frames.
+[Port 1] 96.6% | 3 stocks
+[Port 2] 149.9% | 0 stocks
+gameend method:  2
+[Game Complete] Type: GAME!
+Read took: 2 ms
+New file at: /Users/whoislewys/Slippi/Game_20230206T190652.slp
+[Game Start] New game has started
+{
+  slpVersion: '3.14.0',
+  timerType: 2,
+  inGameMode: 32,
+  friendlyFireEnabled: true,
+  isTeams: false,
+  itemSpawnBehavior: 255,
+  stageId: 3,
+  startingTimerSeconds: 480,
+  enabledItems: 1099511627775,
+  players: [
+    {
+      playerIndex: 0,
+      port: 1,
+      characterId: 20,
+      type: 0,
+      startStocks: 4,
+      characterColor: 3,
+      teamShade: 0,
+      handicap: 9,
+      teamId: 1,
+      staminaMode: false,
+      silentCharacter: false,
+      lowGravity: false,
+      invisible: false,
+      blackStockIcon: false,
+      metal: false,
+      startOnAngelPlatform: false,
+      rumbleEnabled: false,
+      cpuLevel: 1,
+      offenseRatio: 1,
+      defenseRatio: 1,
+      modelScale: 1,
+      controllerFix: 'UCF',
+      nametag: '',
+      displayName: '@0xTARC',
+      connectCode: 'TARC#448',
+      userId: 'NaioXMF1eTePex6mO0VqFW6Sb2y2'
+    },
+    {
+      playerIndex: 1,
+      port: 2,
+      characterId: 20,
+      type: 0,
+      startStocks: 4,
+      characterColor: 2,
+      teamShade: 0,
+      handicap: 9,
+      teamId: 0,
+      staminaMode: false,
+      silentCharacter: false,
+      lowGravity: false,
+      invisible: false,
+      blackStockIcon: false,
+      metal: false,
+      startOnAngelPlatform: false,
+      rumbleEnabled: false,
+      cpuLevel: 1,
+      offenseRatio: 1,
+      defenseRatio: 1,
+      modelScale: 1,
+      controllerFix: 'UCF',
+      nametag: '',
+      displayName: 'fuzzoinparis',
+      connectCode: 'GUCC#359',
+      userId: 'wbyFErDm81PxfyDU3EkVmoKi4am2'
+    }
+  ],
+  scene: 2,
+  gameMode: 8,
+  language: 1,
+  gameInfoBlock: {
+    gameBitfield1: 50,
+    gameBitfield2: 1,
+    gameBitfield3: 142,
+    gameBitfield4: 76,
+    bombRainEnabled: false,
+    itemSpawnBehavior: -1,
+    selfDestructScoreValue: -1,
+    itemSpawnBitfield1: 255,
+    itemSpawnBitfield2: 255,
+    itemSpawnBitfield3: 255,
+    itemSpawnBitfield4: 255,
+    itemSpawnBitfield5: 255,
+    damageRatio: 1
+  },
+  randomSeed: 10863,
+  isPAL: false,
+  isFrozenPS: false,
+  matchInfo: {
+    matchId: 'mode.unranked-2023-02-07T02:04:23.86-1',
+    gameNumber: 2,
+    tiebreakerNumber: 0
+  }
+}
+We have 11 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 14 ms
+We have 24 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+We have 37 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+We have 50 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 4 ms
+We have 63 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 3 ms
+We have 77 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+We have 90 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 3 ms
+We have 103 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 4 ms
+We have 116 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 6 ms
+We have 124 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+gameend method:  7
+[Game Complete] Type: No Contest | Quitter Index: 0
+Read took: 3 ms
+New file at: /Users/whoislewys/Slippi/Game_20230206T190703.slp
+[Game Start] New game has started
+{
+  slpVersion: '3.14.0',
+  timerType: 2,
+  inGameMode: 32,
+  friendlyFireEnabled: true,
+  isTeams: false,
+  itemSpawnBehavior: 255,
+  stageId: 8,
+  startingTimerSeconds: 480,
+  enabledItems: 1099511627775,
+  players: [
+    {
+      playerIndex: 0,
+      port: 1,
+      characterId: 20,
+      type: 0,
+      startStocks: 4,
+      characterColor: 3,
+      teamShade: 0,
+      handicap: 9,
+      teamId: 1,
+      staminaMode: false,
+      silentCharacter: false,
+      lowGravity: false,
+      invisible: false,
+      blackStockIcon: false,
+      metal: false,
+      startOnAngelPlatform: false,
+      rumbleEnabled: false,
+      cpuLevel: 1,
+      offenseRatio: 1,
+      defenseRatio: 1,
+      modelScale: 1,
+      controllerFix: 'UCF',
+      nametag: '',
+      displayName: '@0xTARC',
+      connectCode: 'TARC#448',
+      userId: 'NaioXMF1eTePex6mO0VqFW6Sb2y2'
+    },
+    {
+      playerIndex: 1,
+      port: 2,
+      characterId: 20,
+      type: 0,
+      startStocks: 4,
+      characterColor: 2,
+      teamShade: 0,
+      handicap: 9,
+      teamId: 1,
+      staminaMode: false,
+      silentCharacter: false,
+      lowGravity: false,
+      invisible: false,
+      blackStockIcon: false,
+      metal: false,
+      startOnAngelPlatform: false,
+      rumbleEnabled: false,
+      cpuLevel: 1,
+      offenseRatio: 1,
+      defenseRatio: 1,
+      modelScale: 1,
+      controllerFix: 'UCF',
+      nametag: '',
+      displayName: 'fuzzoinparis',
+      connectCode: 'GUCC#359',
+      userId: 'wbyFErDm81PxfyDU3EkVmoKi4am2'
+    }
+  ],
+  scene: 2,
+  gameMode: 8,
+  language: 1,
+  gameInfoBlock: {
+    gameBitfield1: 50,
+    gameBitfield2: 1,
+    gameBitfield3: 142,
+    gameBitfield4: 76,
+    bombRainEnabled: false,
+    itemSpawnBehavior: -1,
+    selfDestructScoreValue: -1,
+    itemSpawnBitfield1: 255,
+    itemSpawnBitfield2: 255,
+    itemSpawnBitfield3: 255,
+    itemSpawnBitfield4: 255,
+    itemSpawnBitfield5: 255,
+    damageRatio: 1
+  },
+  randomSeed: 16483,
+  isPAL: false,
+  isFrozenPS: false,
+  matchInfo: {
+    matchId: 'mode.unranked-2023-02-07T02:04:23.86-1',
+    gameNumber: 3,
+    tiebreakerNumber: 0
+  }
+}
+We have 11 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 7 ms
+We have 24 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+We have 37 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 1 ms
+We have 50 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+We have 63 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 1 ms
+We have 77 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 1 ms
+We have 90 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 4 ms
+We have 103 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 5 ms
+We have 115 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 4 ms
+We have 127 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+We have 138 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 1 ms
+We have 142 frames.
+[Port 1] 0.0% | 4 stocks
+[Port 2] 0.0% | 4 stocks
+Read took: 2 ms
+

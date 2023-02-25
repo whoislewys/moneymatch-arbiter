@@ -1,0 +1,16 @@
+We have 2888 frames.
+[Port 1] 52.4% | 3 stocks
+[Port 2] 43.0% | 0 stocks
+gameend event:  {
+  gameEndMethod: 2,
+  lrasInitiatorIndex: -1,
+  placements: [
+    { playerIndex: 0, position: 0 },
+    { playerIndex: 1, position: 1 },
+    { playerIndex: 2, position: -1 },
+    { playerIndex: 3, position: -1 }
+  ]
+}
+gameend method:  2
+[Game Complete] Type: GAME!
+Read took: 4 ms

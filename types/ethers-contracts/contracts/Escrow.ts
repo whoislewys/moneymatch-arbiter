@@ -27,23 +27,11 @@ import type {
   PromiseOrValue,
 } from "../common";
 
-export declare namespace Escrow {
-  export type GameResultsStruct = {
-    winnerId: PromiseOrValue<string>;
-    signature: PromiseOrValue<BytesLike>;
-  };
-
-  export type GameResultsStructOutput = [string, string] & {
-    winnerId: string;
-    signature: string;
-  };
-}
-
 export interface EscrowInterface extends utils.Interface {
   functions: {
     "claimWinnings()": FunctionFragment;
     "deposit(address)": FunctionFragment;
-    "endGame((string,bytes))": FunctionFragment;
+    "endGame(string)": FunctionFragment;
     "gameEnded()": FunctionFragment;
     "gameStarted()": FunctionFragment;
     "player1()": FunctionFragment;
@@ -85,7 +73,7 @@ export interface EscrowInterface extends utils.Interface {
   ): string;
   encodeFunctionData(
     functionFragment: "endGame",
-    values: [Escrow.GameResultsStruct]
+    values: [PromiseOrValue<string>]
   ): string;
   encodeFunctionData(functionFragment: "gameEnded", values?: undefined): string;
   encodeFunctionData(
@@ -222,7 +210,7 @@ export interface Escrow extends BaseContract {
     ): Promise<ContractTransaction>;
 
     endGame(
-      gameResults: Escrow.GameResultsStruct,
+      _winnerId: PromiseOrValue<string>,
       overrides?: Overrides & { from?: PromiseOrValue<string> }
     ): Promise<ContractTransaction>;
 
@@ -265,7 +253,7 @@ export interface Escrow extends BaseContract {
   ): Promise<ContractTransaction>;
 
   endGame(
-    gameResults: Escrow.GameResultsStruct,
+    _winnerId: PromiseOrValue<string>,
     overrides?: Overrides & { from?: PromiseOrValue<string> }
   ): Promise<ContractTransaction>;
 
@@ -306,7 +294,7 @@ export interface Escrow extends BaseContract {
     ): Promise<void>;
 
     endGame(
-      gameResults: Escrow.GameResultsStruct,
+      _winnerId: PromiseOrValue<string>,
       overrides?: CallOverrides
     ): Promise<void>;
 
@@ -371,7 +359,7 @@ export interface Escrow extends BaseContract {
     ): Promise<BigNumber>;
 
     endGame(
-      gameResults: Escrow.GameResultsStruct,
+      _winnerId: PromiseOrValue<string>,
       overrides?: Overrides & { from?: PromiseOrValue<string> }
     ): Promise<BigNumber>;
 
@@ -411,7 +399,7 @@ export interface Escrow extends BaseContract {
     ): Promise<PopulatedTransaction>;
 
     endGame(
-      gameResults: Escrow.GameResultsStruct,
+      _winnerId: PromiseOrValue<string>,
       overrides?: Overrides & { from?: PromiseOrValue<string> }
     ): Promise<PopulatedTransaction>;
 

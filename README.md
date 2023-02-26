@@ -22,3 +22,12 @@ Q: how does the electron app pop you out into the browser then get that info bac
 Q: Easy way to tell off gameend event who won? or need to look at stocks? see example-endgame.txt
 
 TODO: work on orbit to turn game events into crdt
+
+
+#### Updated hack steps
+1. Set up bet through web frontend, (sending link to coordinate params as necessary)
+2. Play the game
+    the arbiter server & the game. play through the end.
+3. Winner claims winnings
+    in the background, the arbiter process will find the bet contract between the two players created, watch the game state until a "GameEnded" state is reached, and set the winner depending on the result of the game. This allows the winner to claim their winnings
+

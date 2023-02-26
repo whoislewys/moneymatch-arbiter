@@ -25,11 +25,11 @@ import type {
   TypedListener,
   OnEvent,
   PromiseOrValue,
-} from "./common";
+} from "../common";
 
 export interface EscrowFactoryInterface extends utils.Interface {
   functions: {
-    "createEscrow(string,address,uint256,string,address,uint256)": FunctionFragment;
+    "createEscrow(address,string,address,uint256,string,address,uint256)": FunctionFragment;
   };
 
   getFunction(nameOrSignatureOrTopic: "createEscrow"): FunctionFragment;
@@ -37,6 +37,7 @@ export interface EscrowFactoryInterface extends utils.Interface {
   encodeFunctionData(
     functionFragment: "createEscrow",
     values: [
+      PromiseOrValue<string>,
       PromiseOrValue<string>,
       PromiseOrValue<string>,
       PromiseOrValue<BigNumberish>,
@@ -52,16 +53,23 @@ export interface EscrowFactoryInterface extends utils.Interface {
   ): Result;
 
   events: {
-    "EscrowCreated(address)": EventFragment;
+    "EscrowCreated(string,address,string,address,address)": EventFragment;
   };
 
   getEvent(nameOrSignatureOrTopic: "EscrowCreated"): EventFragment;
 }
 
 export interface EscrowCreatedEventObject {
+  player1Id: string;
+  player1Address: string;
+  player2Id: string;
+  player2Address: string;
   escrowAddress: string;
 }
-export type EscrowCreatedEvent = TypedEvent<[string], EscrowCreatedEventObject>;
+export type EscrowCreatedEvent = TypedEvent<
+  [string, string, string, string, string],
+  EscrowCreatedEventObject
+>;
 
 export type EscrowCreatedEventFilter = TypedEventFilter<EscrowCreatedEvent>;
 
@@ -93,6 +101,7 @@ export interface EscrowFactory extends BaseContract {
 
   functions: {
     createEscrow(
+      _arbiter: PromiseOrValue<string>,
       _player1Id: PromiseOrValue<string>,
       _player1Address: PromiseOrValue<string>,
       _player1BetAmount: PromiseOrValue<BigNumberish>,
@@ -104,6 +113,7 @@ export interface EscrowFactory extends BaseContract {
   };
 
   createEscrow(
+    _arbiter: PromiseOrValue<string>,
     _player1Id: PromiseOrValue<string>,
     _player1Address: PromiseOrValue<string>,
     _player1BetAmount: PromiseOrValue<BigNumberish>,
@@ -115,6 +125,7 @@ export interface EscrowFactory extends BaseContract {
 
   callStatic: {
     createEscrow(
+      _arbiter: PromiseOrValue<string>,
       _player1Id: PromiseOrValue<string>,
       _player1Address: PromiseOrValue<string>,
       _player1BetAmount: PromiseOrValue<BigNumberish>,
@@ -122,16 +133,29 @@ export interface EscrowFactory extends BaseContract {
       _player2Address: PromiseOrValue<string>,
       _player2BetAmount: PromiseOrValue<BigNumberish>,
       overrides?: CallOverrides
-    ): Promise<string>;
+    ): Promise<void>;
   };
 
   filters: {
-    "EscrowCreated(address)"(escrowAddress?: null): EscrowCreatedEventFilter;
-    EscrowCreated(escrowAddress?: null): EscrowCreatedEventFilter;
+    "EscrowCreated(string,address,string,address,address)"(
+      player1Id?: PromiseOrValue<string> | null,
+      player1Address?: null,
+      player2Id?: PromiseOrValue<string> | null,
+      player2Address?: null,
+      escrowAddress?: null
+    ): EscrowCreatedEventFilter;
+    EscrowCreated(
+      player1Id?: PromiseOrValue<string> | null,
+      player1Address?: null,
+      player2Id?: PromiseOrValue<string> | null,
+      player2Address?: null,
+      escrowAddress?: null
+    ): EscrowCreatedEventFilter;
   };
 
   estimateGas: {
     createEscrow(
+      _arbiter: PromiseOrValue<string>,
       _player1Id: PromiseOrValue<string>,
       _player1Address: PromiseOrValue<string>,
       _player1BetAmount: PromiseOrValue<BigNumberish>,
@@ -144,6 +168,7 @@ export interface EscrowFactory extends BaseContract {
 
   populateTransaction: {
     createEscrow(
+      _arbiter: PromiseOrValue<string>,
       _player1Id: PromiseOrValue<string>,
       _player1Address: PromiseOrValue<string>,
       _player1BetAmount: PromiseOrValue<BigNumberish>,

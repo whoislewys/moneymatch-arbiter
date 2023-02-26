@@ -38,13 +38,13 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var _a;
 exports.__esModule = true;
 var slippi_js_1 = require("@slippi/slippi-js");
-var os = require("os");
 var chokidar = require("chokidar");
-var lodash_1 = require("lodash");
+var dotenv = require("dotenv"); // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 var ethers_1 = require("ethers");
+var lodash_1 = require("lodash");
+var os = require("os");
 var EscrowFactory__factory_1 = require("./types/ethers-contracts/factories/contracts/EscrowFactory__factory");
 var Escrow__factory_1 = require("./types/ethers-contracts/factories/contracts/Escrow__factory");
-var dotenv = require("dotenv"); // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
 // MUMBAI
 // const provider = new ethers.providers.JsonRpcProvider(
@@ -60,7 +60,7 @@ var arbiterKey = (_a = process.env.ARBITER_KEY) !== null && _a !== void 0 ? _a :
 var arbiterWallet = new ethers_1.ethers.Wallet(arbiterKey, provider);
 console.log('arbiter address: ', arbiterWallet.address);
 var getCurrentGameEscrow = function (settings) { return __awaiter(void 0, void 0, void 0, function () {
-    var EscrowFactory, player1Id, player2Id, currentGameFilter, events, latestEvent, currentGameEscrowAddress, contractPlayer1Id, contractPlayer1Address, contractPlayer2Id, contractPlayer2Address, EscrowContract;
+    var EscrowFactory, player1Id, player2Id, currentGameFilter, events, latestEvent, currentGameEscrowAddress, contractPlayer1Address, contractPlayer2Address, EscrowContract;
     var _a;
     return __generator(this, function (_b) {
         switch (_b.label) {
@@ -77,73 +77,96 @@ var getCurrentGameEscrow = function (settings) { return __awaiter(void 0, void 0
                 events = _b.sent();
                 latestEvent = events[events.length - 1];
                 currentGameEscrowAddress = latestEvent.args[4];
-                console.log('currentGameEscrowAddress: ', currentGameEscrowAddress);
-                contractPlayer1Id = latestEvent.args[0];
-                console.log('contractPlayer1Id: ', contractPlayer1Id);
                 contractPlayer1Address = latestEvent.args[1];
                 console.log('contractPlayer1Address: ', contractPlayer1Address);
-                contractPlayer2Id = latestEvent.args[2];
-                console.log('contractPlayer2Id: ', contractPlayer2Id);
                 contractPlayer2Address = latestEvent.args[3];
                 console.log('contractPlayer2Address: ', contractPlayer2Address);
                 EscrowContract = Escrow__factory_1.Escrow__factory.connect(currentGameEscrowAddress, arbiterWallet);
                 console.log('EscrowContract.address: ', EscrowContract.address);
+                console.log('\n');
                 return [2 /*return*/, EscrowContract];
         }
     });
 }); };
 var handleChange = function (path) { return __awaiter(void 0, void 0, void 0, function () {
-    var gamewinners, metadata, gameState, settings, gameEnd, currentEscrow, gameByPath, game, endTypes, endMessage, lrasText, winningPlayer, winnerId;
+    var gamewinners, metadata, gameState, settings, gameEnd, currentEscrow, gameByPath, game, err_1, gameStarted, e_1, endTypes, endMessage, lrasText, winningPlayer, winnerId, e_2;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
-                try {
-                    gameByPath = {};
-                    game = (0, lodash_1.get)(gameByPath, [path, 'game']);
-                    // Create SlippiGame object
-                    if (!game) {
-                        console.log("New game file at: ".concat(path));
-                        // Make sure to enable `processOnTheFly` to get updated stats as the game progresses
-                        game = new slippi_js_1.SlippiGame(path, { processOnTheFly: true });
-                        gameByPath[path] = {
-                            game: game,
-                            state: {
-                                settings: null,
-                                detectedPunishes: {}
-                            }
-                        };
-                    }
-                    gameState = (0, lodash_1.get)(gameByPath, [path, 'state']);
-                    settings = game.getSettings();
-                    metadata = game.getMetadata();
-                    gameEnd = game.getGameEnd();
-                    gamewinners = game.getWinners();
-                }
-                catch (err) {
-                    console.log(err);
-                    return [2 /*return*/];
-                }
-                if (!(!gameState.settings && settings)) return [3 /*break*/, 2];
-                console.log("[Game Start] New game has started");
-                console.log('settings: ', settings);
-                gameState.settings = settings;
-                return [4 /*yield*/, getCurrentGameEscrow(settings)];
+                console.log('handleChange');
+                _a.label = 1;
             case 1:
-                currentEscrow = _a.sent();
-                _a.label = 2;
-            case 2:
-                // dev
-                if (true) {
-                    gameEnd = {
-                        gameEndMethod: 2,
-                        lrasInitiatorIndex: -1,
-                        placements: [
-                            { playerIndex: 0, position: 0 },
-                            { playerIndex: 1, position: 1 },
-                            { playerIndex: 2, position: -1 },
-                            { playerIndex: 3, position: -1 },
-                        ]
+                _a.trys.push([1, 4, , 5]);
+                gameByPath = {};
+                console.log('gameByPath', gameByPath);
+                game = (0, lodash_1.get)(gameByPath, [path, 'game']);
+                console.log('game: ', game);
+                // Create SlippiGame object
+                if (!game) {
+                    console.log("New game file at: ".concat(path));
+                    // Make sure to enable `processOnTheFly` to get updated stats as the game progresses
+                    game = new slippi_js_1.SlippiGame(path, { processOnTheFly: true });
+                    gameByPath[path] = {
+                        game: game,
+                        state: {
+                            settings: null,
+                            detectedPunishes: {}
+                        }
                     };
+                }
+                gameState = (0, lodash_1.get)(gameByPath, [path, 'state']);
+                settings = game.getSettings();
+                metadata = game.getMetadata();
+                gameEnd = game.getGameEnd();
+                gamewinners = game.getWinners();
+                if (!!currentEscrow) return [3 /*break*/, 3];
+                return [4 /*yield*/, getCurrentGameEscrow(settings)];
+            case 2:
+                currentEscrow = _a.sent();
+                _a.label = 3;
+            case 3: return [3 /*break*/, 5];
+            case 4:
+                err_1 = _a.sent();
+                console.log(err_1);
+                return [2 /*return*/];
+            case 5:
+                if (!(!gameState.settings && settings)) return [3 /*break*/, 10];
+                console.log("[Game Start] New game has started");
+                // console.log('settings: ', settings);
+                gameState.settings = settings;
+                return [4 /*yield*/, currentEscrow.gameStarted()];
+            case 6:
+                gameStarted = _a.sent();
+                console.log('game started: ', gameStarted);
+                if (!!gameStarted) return [3 /*break*/, 10];
+                _a.label = 7;
+            case 7:
+                _a.trys.push([7, 9, , 10]);
+                console.log('Starting game on Escrow contract');
+                return [4 /*yield*/, currentEscrow.startGame()];
+            case 8:
+                _a.sent();
+                return [3 /*break*/, 10];
+            case 9:
+                e_1 = _a.sent();
+                console.error('Error Starting Game: ', e_1);
+                return [3 /*break*/, 10];
+            case 10:
+                // dev
+                // if (true) {
+                //   gameEnd = {
+                //     gameEndMethod: 2,
+                //     lrasInitiatorIndex: -1,
+                //     placements: [
+                //       { playerIndex: 0, position: 0 },
+                //       { playerIndex: 1, position: 1 },
+                //       { playerIndex: 2, position: -1 },
+                //       { playerIndex: 3, position: -1 },
+                //     ],
+                //   };
+                // enddev
+                // prod
+                if (gameEnd) {
                     endTypes = {
                         1: 'TIME!',
                         2: 'GAME!',
@@ -156,70 +179,26 @@ var handleChange = function (path) { return __awaiter(void 0, void 0, void 0, fu
                         : '';
                     console.log("[Game Complete] Type: ".concat(endMessage).concat(lrasText));
                 }
-                // dev
-                gamewinners = [
-                    {
-                        playerIndex: 0,
-                        names: {
-                            code: 'TARC#448'
-                        }
-                    },
-                ];
-                if (!(gamewinners.length !== 0 && metadata)) return [3 /*break*/, 4];
+                if (!(gamewinners.length !== 0 && metadata)) return [3 /*break*/, 15];
                 winningPlayer = metadata.players[gamewinners[0].playerIndex];
                 winnerId = winningPlayer.names.code;
                 console.log('winnerId: ', winnerId);
-                // Sign game results in EIP-712 format
-                // const domain = {
-                //   // Must match the signing domain in the contract
-                //   name: 'MoneyMatch',
-                //   version: '1',
-                //   verifyingContract: currentEscrow.address,
-                //   chainId: 1337, // local
-                //   // chainId: 437, // polygon
-                //   // chainId: 80001 // polygon mumbai
-                // };
-                // const types = {
-                //   GameResults: [{ name: 'winnerId', type: 'string' }],
-                // };
-                // const winner = {
-                //   // winnerAddress: winnerId === player1Id ? player1Address : player2Address,
-                //   winnerId,
-                // };
-                // const signature = await arbiterWallet._signTypedData(domain, types, winner) 
-                // const gameResults = {
-                //   ...winner,
-                //   signature,
-                // };
-                // await currentEscrow.endGame(gameResults);
+                _a.label = 11;
+            case 11:
+                _a.trys.push([11, 13, , 14]);
+                console.log('Ending game');
                 return [4 /*yield*/, currentEscrow.endGame(winnerId)];
-            case 3:
-                // Sign game results in EIP-712 format
-                // const domain = {
-                //   // Must match the signing domain in the contract
-                //   name: 'MoneyMatch',
-                //   version: '1',
-                //   verifyingContract: currentEscrow.address,
-                //   chainId: 1337, // local
-                //   // chainId: 437, // polygon
-                //   // chainId: 80001 // polygon mumbai
-                // };
-                // const types = {
-                //   GameResults: [{ name: 'winnerId', type: 'string' }],
-                // };
-                // const winner = {
-                //   // winnerAddress: winnerId === player1Id ? player1Address : player2Address,
-                //   winnerId,
-                // };
-                // const signature = await arbiterWallet._signTypedData(domain, types, winner) 
-                // const gameResults = {
-                //   ...winner,
-                //   signature,
-                // };
-                // await currentEscrow.endGame(gameResults);
+            case 12:
                 _a.sent();
-                _a.label = 4;
-            case 4: return [2 /*return*/];
+                return [3 /*break*/, 14];
+            case 13:
+                e_2 = _a.sent();
+                console.error('Error Ending Game: ', e_2);
+                return [3 /*break*/, 14];
+            case 14:
+                console.log('Game over');
+                _a.label = 15;
+            case 15: return [2 /*return*/];
         }
     });
 }); };
@@ -234,9 +213,10 @@ var watcher = chokidar.watch(listenPath, {
     ignoreInitial: true
 });
 // dev
-handleChange('/Users/machine/Slippi/Game_20230213T193024.slp');
+// handleChange('/Users/machine/Slippi/Game_20230213T193024.slp');
 // enddev
-// watcher.on('change', (path) => {
-//   // prod
-//   handleChange(path);
-// });
+// prod
+watcher.on('change', function (path) {
+    // handleChange('/Users/machine/Slippi/Game_20230222T120712.slp');
+    handleChange(path);
+});

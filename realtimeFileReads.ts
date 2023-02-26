@@ -1,11 +1,11 @@
 import { SlippiGame } from '@slippi/slippi-js';
-import * as os from 'os';
 import * as chokidar from 'chokidar';
-import { size, get, forEach } from 'lodash';
+import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 import { ethers } from 'ethers';
+import { get } from 'lodash';
+import * as os from 'os';
 import { EscrowFactory__factory } from './types/ethers-contracts/factories/contracts/EscrowFactory__factory';
 import { Escrow__factory } from './types/ethers-contracts/factories/contracts/Escrow__factory';
-import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
 
 // MUMBAI
@@ -44,13 +44,9 @@ const getCurrentGameEscrow = async (settings: any) => {
   const events = await EscrowFactory.queryFilter(currentGameFilter);
   const latestEvent = events[events.length - 1];
   const currentGameEscrowAddress = latestEvent.args[4];
-  console.log('currentGameEscrowAddress: ', currentGameEscrowAddress);
-  const contractPlayer1Id = latestEvent.args[0];
-  console.log('contractPlayer1Id: ', contractPlayer1Id);
+  // console.log('currentGameEscrowAddress: ', currentGameEscrowAddress);
   const contractPlayer1Address = latestEvent.args[1];
   console.log('contractPlayer1Address: ', contractPlayer1Address);
-  const contractPlayer2Id = latestEvent.args[2];
-  console.log('contractPlayer2Id: ', contractPlayer2Id);
   const contractPlayer2Address = latestEvent.args[3];
   console.log('contractPlayer2Address: ', contractPlayer2Address);
 
@@ -60,10 +56,12 @@ const getCurrentGameEscrow = async (settings: any) => {
     arbiterWallet
   );
   console.log('EscrowContract.address: ', EscrowContract.address);
+  console.log('\n');
   return EscrowContract;
 };
 
 const handleChange = async (path: any) => {
+  console.log('handleChange');
   let gamewinners: any;
   let metadata: any;
   let gameState: any;
@@ -74,6 +72,7 @@ const handleChange = async (path: any) => {
   try {
     const gameByPath: any = {};
     let game = get(gameByPath, [path, 'game']);
+    console.log('game: ', game);
     // Create SlippiGame object
     if (!game) {
       console.log(`New game file at: ${path}`);
@@ -86,14 +85,19 @@ const handleChange = async (path: any) => {
           detectedPunishes: {},
         },
       };
+      console.log('game by path: ', gameByPath);
     }
 
-    gameState = get(gameByPath, [path, 'state']);
+    // gameState = get(gameByPath, [path, 'state']);
 
     settings = game.getSettings();
     metadata = game.getMetadata();
     gameEnd = game.getGameEnd();
     gamewinners = game.getWinners();
+
+    if (!currentEscrow) {
+      currentEscrow = await getCurrentGameEscrow(settings);
+    }
   } catch (err) {
     console.log(err);
     return;
@@ -102,28 +106,38 @@ const handleChange = async (path: any) => {
   // When game has started, get the Escrow contract and call startGame
   if (!gameState.settings && settings) {
     console.log(`[Game Start] New game has started`);
-    console.log('settings: ', settings);
+    // console.log('settings: ', settings);
     gameState.settings = settings;
-    currentEscrow = await getCurrentGameEscrow(settings);
-    // await currentEscrow.startGame();
+
+    // todo: run this once on slp file creation instead of on every frame
+    const gameStarted = await currentEscrow.gameStarted();
+    console.log('game started: ', gameStarted);
+    if (!gameStarted) {
+      try {
+        console.log('Starting game on Escrow contract');
+        await currentEscrow.startGame();
+      } catch (e) {
+        console.error('Error Starting Game: ', e);
+      }
+    }
   }
 
   // dev
-  if (true) {
-    gameEnd = {
-      gameEndMethod: 2,
-      lrasInitiatorIndex: -1,
-      placements: [
-        { playerIndex: 0, position: 0 },
-        { playerIndex: 1, position: 1 },
-        { playerIndex: 2, position: -1 },
-        { playerIndex: 3, position: -1 },
-      ],
-    };
+  // if (true) {
+  //   gameEnd = {
+  //     gameEndMethod: 2,
+  //     lrasInitiatorIndex: -1,
+  //     placements: [
+  //       { playerIndex: 0, position: 0 },
+  //       { playerIndex: 1, position: 1 },
+  //       { playerIndex: 2, position: -1 },
+  //       { playerIndex: 3, position: -1 },
+  //     ],
+  //   };
   // enddev
 
-    // prod
-    // if (gameEnd) {
+  // prod
+  if (gameEnd) {
     const endTypes = {
       1: 'TIME!',
       2: 'GAME!',
@@ -142,14 +156,14 @@ const handleChange = async (path: any) => {
   }
 
   // dev
-  gamewinners = [
-    {
-      playerIndex: 0,
-      names: {
-        code: 'TARC#448',
-      },
-    },
-  ];
+  // gamewinners = [
+  //   {
+  //     playerIndex: 0,
+  //     names: {
+  //       code: 'TARC#448',
+  //     },
+  //   },
+  // ];
   // enddev
 
   if (gamewinners.length !== 0 && metadata) {
@@ -174,14 +188,20 @@ const handleChange = async (path: any) => {
     //   // winnerAddress: winnerId === player1Id ? player1Address : player2Address,
     //   winnerId,
     // };
-    // const signature = await arbiterWallet._signTypedData(domain, types, winner) 
+    // const signature = await arbiterWallet._signTypedData(domain, types, winner)
     // const gameResults = {
     //   ...winner,
     //   signature,
     // };
     // await currentEscrow.endGame(gameResults);
 
-    await currentEscrow.endGame(winnerId);
+    try {
+      console.log('Ending game');
+      await currentEscrow.endGame(winnerId);
+    } catch (e) {
+      console.error('Error Ending Game: ', e);
+    }
+    console.log('Game over');
   }
 };
 
@@ -197,10 +217,11 @@ const watcher = chokidar.watch(listenPath, {
 });
 
 // dev
-handleChange('/Users/machine/Slippi/Game_20230213T193024.slp');
+// handleChange('/Users/machine/Slippi/Game_20230213T193024.slp');
 // enddev
 
-// watcher.on('change', (path) => {
-//   // prod
-//   handleChange(path);
-// });
+// prod
+watcher.on('change', (path) => {
+  // handleChange('/Users/machine/Slippi/Game_20230222T120712.slp');
+  handleChange(path);
+});

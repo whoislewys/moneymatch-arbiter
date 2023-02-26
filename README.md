@@ -1,5 +1,8 @@
 ## How it Works
 
+## Running
+`npx tsc realtimeFileReads.ts && node realtimeFileReads.js`
+
 #### Basic in-a-day hack
 1. set up bet contract between two players (id is combo of their slippi username + eth address). each player bets 0.001 eth
 1. wait for game to start. if game not started in x amount of time, allow the players to claim a refund

@@ -2,7 +2,7 @@
   "name": "moneymatch",
   "version": "0.0.1",
   "description": "provably fair super smash bros melee money matches. settled on eth.",
-  "main": "index.js",
+  "main": "realtimeFileReads.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

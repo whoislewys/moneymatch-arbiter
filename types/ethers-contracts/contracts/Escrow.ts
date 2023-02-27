@@ -42,7 +42,6 @@ export interface EscrowInterface extends utils.Interface {
     "player2BetBalance()": FunctionFragment;
     "startGame()": FunctionFragment;
     "winner()": FunctionFragment;
-    "winnings()": FunctionFragment;
   };
 
   getFunction(
@@ -60,7 +59,6 @@ export interface EscrowInterface extends utils.Interface {
       | "player2BetBalance"
       | "startGame"
       | "winner"
-      | "winnings"
   ): FunctionFragment;
 
   encodeFunctionData(
@@ -100,7 +98,6 @@ export interface EscrowInterface extends utils.Interface {
   ): string;
   encodeFunctionData(functionFragment: "startGame", values?: undefined): string;
   encodeFunctionData(functionFragment: "winner", values?: undefined): string;
-  encodeFunctionData(functionFragment: "winnings", values?: undefined): string;
 
   decodeFunctionResult(
     functionFragment: "claimWinnings",
@@ -133,7 +130,6 @@ export interface EscrowInterface extends utils.Interface {
   ): Result;
   decodeFunctionResult(functionFragment: "startGame", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "winner", data: BytesLike): Result;
-  decodeFunctionResult(functionFragment: "winnings", data: BytesLike): Result;
 
   events: {
     "Deposited(address)": EventFragment;
@@ -239,8 +235,6 @@ export interface Escrow extends BaseContract {
     ): Promise<ContractTransaction>;
 
     winner(overrides?: CallOverrides): Promise<[string]>;
-
-    winnings(overrides?: CallOverrides): Promise<[BigNumber]>;
   };
 
   claimWinnings(
@@ -283,8 +277,6 @@ export interface Escrow extends BaseContract {
 
   winner(overrides?: CallOverrides): Promise<string>;
 
-  winnings(overrides?: CallOverrides): Promise<BigNumber>;
-
   callStatic: {
     claimWinnings(overrides?: CallOverrides): Promise<void>;
 
@@ -321,8 +313,6 @@ export interface Escrow extends BaseContract {
     startGame(overrides?: CallOverrides): Promise<void>;
 
     winner(overrides?: CallOverrides): Promise<string>;
-
-    winnings(overrides?: CallOverrides): Promise<BigNumber>;
   };
 
   filters: {
@@ -384,8 +374,6 @@ export interface Escrow extends BaseContract {
     ): Promise<BigNumber>;
 
     winner(overrides?: CallOverrides): Promise<BigNumber>;
-
-    winnings(overrides?: CallOverrides): Promise<BigNumber>;
   };
 
   populateTransaction: {
@@ -424,7 +412,5 @@ export interface Escrow extends BaseContract {
     ): Promise<PopulatedTransaction>;
 
     winner(overrides?: CallOverrides): Promise<PopulatedTransaction>;
-
-    winnings(overrides?: CallOverrides): Promise<PopulatedTransaction>;
   };
 }

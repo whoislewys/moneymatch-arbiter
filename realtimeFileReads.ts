@@ -9,15 +9,16 @@ import { Escrow__factory } from './types/ethers-contracts/factories/contracts/Es
 dotenv.config();
 
 // MUMBAI
-// const provider = new ethers.providers.JsonRpcProvider(
-//   process.env.MUMBAI_ALCHEMY_URL
-// );
+const provider = new ethers.providers.JsonRpcProvider(
+  process.env.MUMBAI_ALCHEMY_URL
+);
 // MAINNET
 // const provider = new ethers.providers.JsonRpcProvider(
 //   process.env.POLYGON_ALCHEMY_URL
 // );
 // LOCAL
-const provider = new ethers.providers.JsonRpcProvider('http://localhost:8545');
+// const provider = new ethers.providers.JsonRpcProvider('http://localhost:8545');
+
 const arbiterKey = process.env.ARBITER_KEY ?? ethers.constants.AddressZero;
 const arbiterWallet = new ethers.Wallet(arbiterKey, provider);
 console.log('arbiter address: ', arbiterWallet.address);

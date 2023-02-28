@@ -56,15 +56,13 @@ var EscrowFactory__factory_1 = require("./types/ethers-contracts/factories/contr
 var Escrow__factory_1 = require("./types/ethers-contracts/factories/contracts/Escrow__factory");
 dotenv.config();
 // MUMBAI
-// const provider = new ethers.providers.JsonRpcProvider(
-//   process.env.MUMBAI_ALCHEMY_URL
-// );
+var provider = new ethers_1.ethers.providers.JsonRpcProvider(process.env.MUMBAI_ALCHEMY_URL);
 // MAINNET
 // const provider = new ethers.providers.JsonRpcProvider(
 //   process.env.POLYGON_ALCHEMY_URL
 // );
 // LOCAL
-var provider = new ethers_1.ethers.providers.JsonRpcProvider('http://localhost:8545');
+// const provider = new ethers.providers.JsonRpcProvider('http://localhost:8545');
 var arbiterKey = (_a = process.env.ARBITER_KEY) !== null && _a !== void 0 ? _a : ethers_1.ethers.constants.AddressZero;
 var arbiterWallet = new ethers_1.ethers.Wallet(arbiterKey, provider);
 console.log('arbiter address: ', arbiterWallet.address);
